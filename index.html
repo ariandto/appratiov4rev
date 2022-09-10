@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Armada Ratio Calc App</title>
+  </head>
+  <body>
+    <div class="card" draggable="true">
+      <main class="Container">
+        <img
+          src="https://farm66.staticflickr.com/65535/52347727038_7e479018ac_m.jpg"
+          alt="imageskrisbow"
+        />
+        <h3>Armada Ratio</h3>
+
+        <form id="kilometer" autocomplete="off">
+          <label for="jaraktempuh">Total Jarak Tempuh</label>
+          <input type="number" id="kilometertempuh" />
+        </form>
+        <form id="liter" autocomplete="off">
+          <label for="liter">Total Liter (SPBU)</label>
+          <input type="number" step="any" id="totalliter" />
+          <p>
+            <button type="submit">Hitung Ratio</button>
+          </p>
+        </form>
+        <div id="root"></div>
+      </main>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
