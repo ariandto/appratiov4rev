@@ -17,13 +17,21 @@
 
         <form id="kilometer" autocomplete="off">
           <label for="jaraktempuh">Total Jarak Tempuh</label>
-          <input type="number" id="kilometertempuh" />
+          <input type="text" id="kilometertempuh" />
         </form>
+
         <form id="liter" autocomplete="off">
           <label for="liter">Total Liter (SPBU)</label>
-          <input type="number" step="any" id="totalliter" />
+          <input type="text"  id="totalliter" />
           <p>
-            <button id="ratio" type="submit">Hitung Ratio</button>
+
+        <form id="hasilratio" autocomplete="off">
+        <label for="hasilratio">Ratio</label>
+        <input type="text" id="hasil" />
+        <p>
+
+            <button onclick="fratio()" id="ratio" type="submit">Hitung Ratio</button>
+
           </p>
         </form>
         <div id="root"></div>
