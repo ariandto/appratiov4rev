@@ -13,16 +13,17 @@ body {
 }
 
 #liter button {
-  width: 100px;
+  width: 80px;
   height: 25px;
   border: 10px;
   outline: none;
   background-color: blue;
   color: white;
-  border-radius: 5px;
+  border-radius: 50px;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
 }
 
 h3 {
@@ -40,7 +41,7 @@ h3 {
   border-radius: 8px;
   font-size: 16px;
   font-weight: 300;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 #kilometer label {
@@ -91,29 +92,18 @@ h3 {
 }
 img {
   display: block;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: auto;
+  max-height: auto;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  opacity: 0.5;
-  padding-top: 10px;
+  opacity: 0.3;
+  padding-top: 5px;
 }
 
 footer {
   display: flex;
   padding-bottom: 50px;
-}
-
-nav ul {
-  background: red;
-  padding: 2px 20px;
-  list-style: none;
-  position: relative;
-  display: flex;
-  width: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: azure;
 }
 
 footer {
@@ -144,6 +134,18 @@ footer {
   padding-left: 10px;
   padding-top: 0px;
   margin-top: 10px;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.ubah {
+  max-width: min-content;
+  padding-left: 10px;
+  padding-top: 0px;
+  margin-top: 10px;
+  max-width: auto;
   justify-content: baseline;
   align-items: center;
   font-size: 16px;
