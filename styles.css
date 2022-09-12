@@ -13,17 +13,20 @@ body {
 }
 
 #liter button {
+  margin-left: 20px;
   width: 80px;
   height: 25px;
   border: 10px;
   outline: none;
   background-color: blue;
   color: white;
-  border-radius: 50px;
+  border-radius: 5px;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   font-size: 12px;
+  padding: 10px 10px 5px px;
+  margin-top: 0px;
 }
 
 h3 {
@@ -42,6 +45,7 @@ h3 {
   font-size: 16px;
   font-weight: 300;
   padding: 10px 10px;
+  padding-left: 70px;
 }
 
 #kilometer label {
@@ -134,18 +138,6 @@ footer {
   padding-left: 10px;
   padding-top: 0px;
   margin-top: 10px;
-  justify-content: baseline;
-  align-items: center;
-  font-size: 16px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-}
-.ubah {
-  max-width: min-content;
-  padding-left: 10px;
-  padding-top: 0px;
-  margin-top: 10px;
-  max-width: auto;
   justify-content: baseline;
   align-items: center;
   font-size: 16px;
