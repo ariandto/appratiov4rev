@@ -124,7 +124,7 @@ footer {
 .hitung {
   height: 20px;
   width: 70px;
-  max-width: max-content;
+  max-width: auto;
   max-height: 50px;
   padding-left: 10px;
   padding-top: 0px;
