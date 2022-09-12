@@ -33,6 +33,7 @@ h3 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   align-items: center;
+  padding-left: 12px;
 }
 .card {
   height: auto;
@@ -66,6 +67,7 @@ h3 {
   color: white;
   font-style: italic;
   font-variant: inherit;
+  padding-left: 30px;
 }
 #hasil input {
   background-color: whitesmoke;
@@ -148,4 +150,12 @@ footer {
 hasilcenter {
   align-items: center;
   color: red;
+}
+
+#hasilratio {
+  margin-top: 20px;
+  font-size: 20x;
+  color: red;
+  font-weight: bold;
+  background-color: silver;
 }
