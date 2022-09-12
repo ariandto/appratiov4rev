@@ -30,7 +30,7 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card {
-  height: 400px;
+  height: auto;
   width: auto;
   display: flex;
   align-items: center;
@@ -78,6 +78,7 @@ h3 {
   border-style: groove;
   padding-bottom: 5px;
   display: flex;
+  max-width: auto;
 }
 #kilometer input {
   background-color: whitesmoke;
@@ -98,6 +99,7 @@ img {
   opacity: 0.5;
   padding-top: 10px;
 }
+
 footer {
   display: flex;
   padding-bottom: 50px;
@@ -117,4 +119,34 @@ nav ul {
 footer {
   align-items: center;
   justify-content: center;
+}
+
+.hitung {
+  height: 20px;
+  width: 70px;
+  max-width: min-content;
+  max-height: 50px;
+  padding-left: 10px;
+  padding-top: 0px;
+  margin-top: 10px;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.clear {
+  height: 20px;
+  width: 70px;
+  max-width: auto;
+  max-height: 50px;
+  padding-left: 10px;
+  padding-top: 0px;
+  margin-top: 10px;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
