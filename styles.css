@@ -75,6 +75,7 @@ h3 {
   border-style: groove;
   padding-bottom: 5px;
   display: flex;
+  max-width: min-content;
 }
 
 #liter input {
