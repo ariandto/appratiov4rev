@@ -1,6 +1,7 @@
 var km = document.getElementById('kilometertempuh');
 var liter = document.getElementById('totalliter');
 var hasilnya = document.getElementById('hasilratio');
+document.getElementById('hasilratio').disabled = true;
 const tombol = document.querySelector('button');
 
 function fratio() {
