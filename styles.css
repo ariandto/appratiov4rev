@@ -118,3 +118,8 @@ nav ul {
   width: 30px;
   height: 10px;
 }
+
+footer {
+  align-items: center;
+  justify-content: center;
+}
