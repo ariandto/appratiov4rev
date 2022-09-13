@@ -184,3 +184,16 @@ footer {
   color: white;
   font-size: 12px;
 }
+
+.armada {
+  font-size: 20x;
+  color: black;
+  font-weight: bold;
+  margin-right: 0px;
+  padding-top: 0px;
+  background-color: silver;
+  justify-content: center;
+  max-width: auto;
+  display: flex;
+  margin-left: 10px;
+}

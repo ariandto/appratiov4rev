@@ -7,18 +7,19 @@
     <title>Armada Ratio Calc App</title>
   </head>
   <body>
-    <p>
-      <select name='agama'>
-      <option value='Mini Van Box'>Islam</option>
-      <option value='CDE Long Chassis'>Kristen</option>
-      <option value='CDD Long Chassis'>Katholik</option>
-      <option value='Wing Box'>Hindu</option>
-      <option value='Motor'>Budha</option>
-      </select>
     <div class="card" draggable="true">
 
       <main class="Container">
-
+        <p>
+          <select class="armada" placeholder="pilih armada" name='typearmada'>
+          <option value='default'>---Pilih Armada---</option>
+          <option value='A'>Mini Van Box</option>
+          <option value='B'>CDE</option>
+          <option value='C'>CDE Long Chassis</option>
+          <option value='D'>CDD Long Chassis</option>
+          <option value='E'>Wing Box</option>
+          <option value='F'>Motor</option>
+          </select>
         <form id="liter" autocomplete="off">
         <form id="kilometer" autocomplete="off">
         <input type="text" id="kilometertempuh" placeholder="Total Jarak Tempuh" />
