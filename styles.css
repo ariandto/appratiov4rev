@@ -124,7 +124,7 @@ footer {
   max-height: 50px;
   padding-left: 10px;
   padding-top: 0px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 10px;
   justify-content: baseline;
   align-items: center;
@@ -150,14 +150,13 @@ footer {
     'Lucida Sans', Arial, sans-serif;
 }
 
-#hasilratio {
-  margin-top: 20px;
+#hasilratio input {
   font-size: 20x;
   color: red;
   font-weight: bold;
+  margin-right: 10px;
+  padding-top: 10px;
   background-color: silver;
-}
-.calc {
 }
 
 .card2 {
