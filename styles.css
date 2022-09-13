@@ -44,8 +44,9 @@ h3 {
   border-radius: 8px;
   font-size: 16px;
   font-weight: 300;
-  padding: 10px 25px;
-  padding-left: 0px;
+  padding: 25px 25px;
+  padding-right: 0px;
+  padding-left: 10px;
 }
 
 #kilometer label {
