@@ -11,7 +11,7 @@
       <main class="Container">
         <p>
           <select id="armada" name='typearmada'>
-          <option value="null" disabled selected hidden class="discolor">Pilih Armada</option>
+          <option value="null" disabled selected hidden >Pilih Armada</option>
           <option value='A'>Mini Van Box</option>
           <option value='B'>CDE</option>
           <option value='C'>CDE Long Chassis</option>
@@ -22,15 +22,13 @@
         <form id="liter" autocomplete="off">
         <form id="kilometer" autocomplete="off">
         <input type="text" id="kilometertempuh" placeholder="Total Jarak Tempuh" />
-        <p>
+        <br>
           <input type="text"  id="totalliter" placeholder="isi bbm (liter)" />
           <p>
-        <form id="baru"></form>
-        <button class="hitung" onclick="fratio()">Hitung</button>
-        <button class="clear" type="reset">Reset</button>
-          </form>
+          <button class="hitung" onclick="fratio()">Hitung</button>
+          <button class="clear" type="reset">Reset</button>
           </p>
-        <form id="liter" autocomplete="off">
+        <form id="hasilratio" autocomplete="off">
         <input type="text" id="hasilratio" />
       </form>
         <!-- <button class="calc" onclick="">Calculator</button> -->
