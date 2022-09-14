@@ -95,8 +95,8 @@ body {
 }
 
 #liter button {
-  margin-left: 20px;
-  width: 80px;
+  margin-left: 0;
+  width: 85px;
   height: 25px;
   border: 10px;
   outline: none;
@@ -107,8 +107,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   font-size: 12px;
-  padding: 10px 10px 5px px;
+  padding: 0px 0px 0px px;
   margin-top: 0px;
+  margin-right: 0px;
+  max-width: 82.5px;
 }
 
 h3 {
