@@ -158,13 +158,10 @@ footer {
 .hitung {
   height: 20px;
   width: 70px;
-  max-width: max-content;
-  max-height: 50px;
-  padding-left: 10px;
+  max-width: 50px;
   padding-top: 0px;
   margin-top: 20px;
   margin-right: 10px;
-  justify-content: baseline;
   align-items: center;
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -172,16 +169,13 @@ footer {
 }
 
 .clear {
-  height: auto;
-  width: auto;
-  max-width: min-content;
+  height: 20px;
+  width: 70px;
+  max-width: 50px;
   max-height: 50px;
-  padding-left: 10px;
   padding-top: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 20px;
   margin-left: 10px;
-  justify-content: baseline;
   align-items: center;
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -226,7 +220,7 @@ footer {
   font-size: 20x;
   color: black;
   font-weight: bold;
-  margin-right: 0px;
+  margin-right: 10px;
   padding-top: 0px;
   background-color: yellow;
   justify-content: center;
