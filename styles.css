@@ -153,15 +153,17 @@ h3 {
   padding-left: 30px;
 }
 #hasil input {
-  background-color: whitesmoke;
+  background-color: silver;
   border: 2px;
   border-radius: 2px;
   border-color: blue;
   border-style: groove;
   padding-bottom: 5px;
   display: flex;
-  max-width: min-content;
+  max-width: 200px;
+  width: 170px;
   color: red;
+  text-align: center;
 }
 
 #liter input {
@@ -172,16 +174,21 @@ h3 {
   border-style: groove;
   padding-bottom: 5px;
   display: flex;
-  max-width: auto;
+  max-width: 200px;
+  width: 170px;
 }
 #kilometer input {
-  background-color: whitesmoke;
+  background-color: silver;
   border: 2px;
   border-radius: 2px;
   border-color: blue;
   border-style: groove;
   padding-bottom: 5px;
   display: flex;
+  max-width: 200px;
+  width: 170px;
+  color: red;
+  text-align: center;
 }
 img {
   display: block;
@@ -264,20 +271,31 @@ footer {
   font-size: 12px;
 } */
 
-#armada {
+/* #armada:focus {
   font-size: 20x;
   color: black;
   font-weight: bold;
   padding-top: 0px;
   background-color: turquoise;
   justify-content: center;
-  display: flex;
-  margin-left: 20px;
+  margin-left: 0px;
   max-width: 70%;
-}
+  position: 70px;
+  shape-image-threshold: inherit;
+  min-width: 150px;
+  width: auto;
+} */
 
-.Container {
-  max-width: max-content;
-  display: block;
-  
+#armada {
+  background-color: blue;
+  border: 2px;
+  border-radius: 2px;
+  border-color: blue;
+  border-style: groove;
+  padding-bottom: 5px;
+  display: flex;
+  max-width: 200px;
+  width: 170px;
+  color: whitesmoke;
+  text-align: center;
 }
