@@ -10,10 +10,6 @@ document.getElementById('kilometertempuh').disabled = true;
 function fratio() {
   hasilnya.value = Number(km.value) / Number(liter.value);
   km.value = Number(kmakhir.value) - Number(kmawal.value);
-  var liter = document.getElementById('totalliter');
-  if (liter == '') {
-    alert = 'Slahkan masukkan jumlah liter bbm terlebih dahulu';
-  }
 }
 
 tombol.addEventListener('click', function (e) {
@@ -21,4 +17,3 @@ tombol.addEventListener('click', function (e) {
   hasilnya.value = Number(km.value) / Number(liter.value);
 });
 
-var typeArmada = document.getElementById('armada');
