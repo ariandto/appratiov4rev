@@ -10,7 +10,7 @@ document.getElementById('kilometertempuh').disabled = true;
 function fratio() {
   var isiliter = document.getElementById('totalliter').value;
   var opsiarmada = document.getElementById('armada').value;
-  if (isiliter ="" || opsiarmada == "Pilih Armada"){
+  if (isiliter =="" || opsiarmada == "Pilih Armada"){
     alert("Pilih armada dahulu / isi liter masih kosong!!")
   }else{
     hasilnya.value = Number(km.value) / Number(liter.value);
