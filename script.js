@@ -12,18 +12,6 @@ function fratio() {
   km.value = Number(kmakhir.value) - Number(kmawal.value);
 }
 
-function alertEmpty() {
-  var inputs = document.getElementById('kilometertempuh');
-  var result = [];
-  for (var i = 0; i < inputs.length; i += 1) {
-    result[i] = inputs[i].value;
-
-    if (inputs[i].value == '') {
-      alert('harus isi liter bbm terlebih dahulu!!');
-    }
-  }
-  document.getElementById('hasilratio').innerHTML = result[0];
-}
 tombol.addEventListener('click', function (e) {
   e.preventDefault();
   hasilnya.value = Number(km.value) / Number(liter.value);
