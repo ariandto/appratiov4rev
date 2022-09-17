@@ -260,4 +260,13 @@ footer {
   width: 170px;
   color: whitesmoke;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+#kmawal {
+  max-width: 80px;
+}
+
+#kmakhir {
+  max-width: 85px;
 }
