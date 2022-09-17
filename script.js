@@ -14,21 +14,17 @@ function fratio() {
   var opsiarmada = document.getElementById('armada').value;
   if (isiliter == '') {
     alert('Isi liter masih kosong!!');
-    document.getElementById('kmawal').reset();
-    document.getElementById('kmaakhir').reset();
-  } else if (opsiarmada !== 'Pilih Armada') {
+}
+  if (opsiarmada !== "Pilih Armada") {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
     hasilnya.value = Number(km.value) / Number(liter.value);
-  }
-}
 
-// function resetAll() {
-//   document.getElementById('resetbutton').reset();
-// }
-
-tombol.addEventListener('click', function (e) {
+  }  
+tombol.addEventListener('click',
+function (e) {
   e.preventDefault();
   hasilnya.value = Number(km.value) / Number(liter.value);
   km.value = Number(kmakhir.value) - Number(kmawal.value);
 });
+}
