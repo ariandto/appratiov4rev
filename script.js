@@ -14,6 +14,8 @@ function fratio() {
   var opsiarmada = document.getElementById('armada').value;
   if (isiliter == '') {
     alert('Form input masih kosong!!');
+    document.getElementById('kmawal').value = '';
+    document.getElementById('kmakhir').value = '';
   }
   if (opsiarmada !== 'Pilih Armada') {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
