@@ -14,8 +14,9 @@ function fratio() {
   var opsiarmada = document.getElementById('armada').value;
   if (isiliter == '') {
     alert('Isi liter masih kosong!!');
-  if (opsiarmada == "Pilih Armada"){
-    alert("Pilih armada dahulu" )}
+    if (opsiarmada == 'Pilih Armada') {
+      alert('Pilih armada dahulu');
+    }
   } else if (isiliter > 0) {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
@@ -24,12 +25,10 @@ function fratio() {
 }
 
 function resetAll() {
-    document.getElementById('kmawal').reset();
-    document.getElementById('kmakhir').reset();
-    document.getElementById('totalliter').reset();
-    document.getElementById('hasilratio').reset();
-    document.getElementById('kilometertempuh').reset();
-  }
+  document.getElementById('hasilratio').reset();
+  document.getElementById('liter').reset();
+  document.getElementById('kilometer').reset();
+}
 
 tombol.addEventListener('click', function (e) {
   e.preventDefault();
