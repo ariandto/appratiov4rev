@@ -14,9 +14,6 @@ function fratio() {
   var opsiarmada = document.getElementById('armada').value;
   if (isiliter == '' || opsiarmada == 'Pilih Armada') {
     alert('Isi liter masih kosong!!');
-    if (opsiarmada == 'Pilih Armada') {
-      alert('Pilih armada dahulu');
-    }
   } else if (isiliter > 0) {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
