@@ -12,8 +12,10 @@ document.getElementById('hasilratio').style.backgroundColor = 'silver';
 function fratio() {
   var isiliter = document.getElementById('totalliter').value;
   var opsiarmada = document.getElementById('armada').value;
-  if (isiliter == '' || opsiarmada == 'Pilih Armada') {
+  if (isiliter == '') {
     alert('Isi liter masih kosong!!');
+  } else if (opsiarmada=="Pilih Armada") {
+    alert('Pilih Armada');
   } else if (isiliter > 0) {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
