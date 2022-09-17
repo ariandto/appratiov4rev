@@ -8,8 +8,13 @@ document.getElementById('hasilratio').disabled = true;
 document.getElementById('kilometertempuh').disabled = true;
 
 function fratio() {
-  hasilnya.value = Number(km.value) / Number(liter.value);
-  km.value = Number(kmakhir.value) - Number(kmawal.value);
+  var isiliter = document.getElementById('totalliter').value;
+  var opsiarmada = document.getElementById('armada').value;
+  if (isiliter ="" || opsiarmada == "Pilih Armada"){
+    alert("Pilih armada dahulu / isi liter masih kosong!!")
+  }else{
+    hasilnya.value = Number(km.value) / Number(liter.value);
+    km.value = Number(kmakhir.value) - Number(kmawal.value);
 }
 
 tombol.addEventListener('click', function (e) {
