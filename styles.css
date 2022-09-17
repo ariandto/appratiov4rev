@@ -179,19 +179,7 @@ h3 {
   max-width: 200px;
   width: 170px;
 }
-#kilometer input {
-  background-color: silver;
-  border: 2px;
-  border-radius: 2px;
-  border-color: blue;
-  border-style: groove;
-  padding-bottom: 5px;
-  display: flex;
-  max-width: 200px;
-  width: 170px;
-  color: red;
-  text-align: center;
-}
+
 img {
   display: block;
   max-width: auto;
@@ -279,4 +267,9 @@ footer {
   border-radius: 2px;
   border-color: blue;
   border-style: groove;
+}
+
+#kilometertempuh {
+  background-color: silver;
+  color: red;
 }
