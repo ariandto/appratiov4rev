@@ -265,8 +265,18 @@ footer {
 
 #kmawal {
   max-width: 80px;
+  background-color: whitesmoke;
+  border: 2px;
+  border-radius: 2px;
+  border-color: blue;
+  border-style: groove;
 }
 
 #kmakhir {
   max-width: 85px;
+  background-color: whitesmoke;
+  border: 2px;
+  border-radius: 2px;
+  border-color: blue;
+  border-style: groove;
 }
