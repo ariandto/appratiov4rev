@@ -20,7 +20,7 @@ function fratio() {
   if (opsiarmada !== 'Pilih Armada') {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
-    hasilnya.value = Number(km.value) / Number(liter.value);
+    hasilnya.value = Number(km.value) / Number(liter.value.toFixed(2));
   }
 }
 
