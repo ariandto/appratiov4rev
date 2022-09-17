@@ -9,6 +9,14 @@ document.getElementById('kilometertempuh').disabled = true;
 document.getElementById('kilometertempuh').style.backgroundColor = 'silver';
 document.getElementById('hasilratio').style.backgroundColor = 'silver';
 
+function reset() {
+  document.getElementById('kmawal').value = '';
+  document.getElementById('kmakhir').value = '';
+  document.getElementById('totalliter').value = '';
+  document.getElementById('hasilratio').value = '';
+  document.getElementById('kilometertempuh').value = '';
+}
+
 function fratio() {
   var isiliter = document.getElementById('totalliter').value;
   var opsiarmada = document.getElementById('armada').value;
