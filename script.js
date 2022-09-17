@@ -21,3 +21,4 @@ tombol.addEventListener('click', function (e) {
   e.preventDefault();
   hasilnya.value = Number(km.value) / Number(liter.value);
 });
+}
