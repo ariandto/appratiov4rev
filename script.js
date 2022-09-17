@@ -20,5 +20,6 @@ function fratio() {
 tombol.addEventListener('click', function (e) {
   e.preventDefault();
   hasilnya.value = Number(km.value) / Number(liter.value);
+  km.value = Number(kmakhir.value) - Number(kmawal.value);
 });
 }
