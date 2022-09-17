@@ -14,17 +14,26 @@ function fratio() {
   var opsiarmada = document.getElementById('armada').value;
   if (isiliter == '' || opsiarmada == 'Pilih Armada') {
     alert('Pilih armada dahulu / isi liter masih kosong!!');
-  } else if (isiliter > 0 ) {
+  } else if (isiliter > 0) {
     km.value = Number(kmakhir.value) - Number(kmawal.value);
   } else {
     hasilnya.value = Number(km.value) / Number(liter.value);
   }
-    
+}
 
+function resetAll() {
+  var buttonReset = document.getElementsByClassName('clear');
+  if (buttonReset == onclick) {
+    document.getElementById('kmawal').reset();
+    document.getElementById('kmakhir').reset();
+    document.getElementById('totalliter').reset();
+    document.getElementById('hasilratio').reset();
+    document.getElementById('kilometertempuh').reset();
   }
+}
 
-  tombol.addEventListener('click', function (e) {
-    e.preventDefault();
-    hasilnya.value = Number(km.value) / Number(liter.value);
-    km.value = Number(kmakhir.value) - Number(kmawal.value);
-  });
+tombol.addEventListener('click', function (e) {
+  e.preventDefault();
+  hasilnya.value = Number(km.value) / Number(liter.value);
+  km.value = Number(kmakhir.value) - Number(kmawal.value);
+});
