@@ -12,7 +12,7 @@ document.getElementById('hasilratio').style.backgroundColor = 'silver';
 function fratio() {
   var isiliter = document.getElementById('totalliter').value;
   var opsiarmada = document.getElementById('armada').value;
-  if (isiliter == '') {
+  if (isiliter == '' || opsiarmada == 'Pilih Armada') {
     alert('Isi liter masih kosong!!');
     if (opsiarmada == 'Pilih Armada') {
       alert('Pilih armada dahulu');
@@ -24,11 +24,11 @@ function fratio() {
   }
 }
 
-function resetAll() {
-  document.getElementById('hasilratio').reset();
-  document.getElementById('liter').reset();
-  document.getElementById('kilometer').reset();
-}
+// function resetAll() {
+//   document.getElementById('hasilratio').reset();
+//   document.getElementById('liter').reset();
+//   document.getElementById('kilometer').reset();
+// }
 
 tombol.addEventListener('click', function (e) {
   e.preventDefault();
